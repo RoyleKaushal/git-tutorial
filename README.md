@@ -24,3 +24,7 @@
 12. git stash save "added index and save" -> It stash the stagged file with particular message
 
 13. git stash save "added untracked and staged file in stash" --include-untracked -> It stash the untracked and stagged file with particular message
+
+14. git commit --amend -> ka use last commit ko modify ya update karne ke liye hota hai bina naye commit create kiye. 
+
+15. git reflog -> Git me recent actions ka history track karne ke liye use hota hai, jo commits, resets, checkouts, etc. ko log karta hai, even agar commits delete ho gaye ho.
