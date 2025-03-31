@@ -24,4 +24,15 @@
 
 13. git diff commit1 commit2 -> gives the difference of all file changes between two commits
 
-14 git commit -m "<your commit message>" -> If we want to avoid opening a text editor like vim/nano to add commit message we can use this following command
+14. git commit -m "<your commit message>" -> If we want to avoid opening a text editor like vim/nano to add commit message we can use this following command
+
+15. git remote -> list down all the remote connection names
+
+
+
+How to generate SSH Key?
+
+1. ssh-keygen -t rsa -b 2048 -C "<comment>"
+2. cd ~/.ssh
+3. ls -ltr
+4. cat id_rsa.pub
