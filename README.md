@@ -46,6 +46,15 @@ Note: The name of the remote connection is always used to establish communicatio
 
 
 
+
+Recommended Practices
+
+1. Make Changes
+2. git add 
+3. git commit 
+4. git pull
+5. git push
+
 How to generate SSH Key?
 
 1. ssh-keygen -t rsa -b 2048 -C "<comment>"
