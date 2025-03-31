@@ -9,4 +9,6 @@
 
 5. git stash apply stash@{1} -> It revert particular stash from stash list which is mentioned.
 
+6. git stash --include-untracked -> It stash untracked file also 
 
+7. git stash --all -> It stash all files.
