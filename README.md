@@ -12,3 +12,11 @@
 6. git stash --include-untracked -> It stash untracked file also 
 
 7. git stash --all -> It stash all files.
+
+8. git stash pop -> It pop and revert the last stash.
+
+9. git stash drop -> It deletes the last stash
+
+10. git stash drop stash@{0} -> It deletes the particular stash 
+
+11. git stash clear -> It delete complete stack of stash.
