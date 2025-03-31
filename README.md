@@ -68,5 +68,16 @@ Tree Data Structure / Graph
 
 
 `git cat-file -p 645fc4ecbd796bc0e61b00e318e1ab50ae425531` -> 
-
 100644 blob 645fc4ecbd796bc0e61b00e318e1ab50ae425531	README.md
+
+
+`git verify-pack -v .git/objects/pack/pack-7848ea9825fe28bb60c938bdf3f2294b87880b20.pack` -> 
+be634c51f540bb02c6968d5c14829e5928c575e2 commit 215 135 12
+a8bdf587ebde8ff968ba767ee77de8e21efb121d blob   1481 605 147
+a382805cb9262424ced3bbd0236f20e68579b8c6 blob   21 31 752
+57d2a94ffb1c5a7d17a0c0924f869dbd576e5e33 blob   20 30 783
+36ee24a03dabf5ef06f7425cf395603573f3a892 tree   37 48 813
+645fc4ecbd796bc0e61b00e318e1ab50ae425531 blob   10 21 861 1 a8bdf587ebde8ff968ba767ee77de8e21efb121d
+non delta: 5 objects
+chain length = 1: 1 object
+.git/objects/pack/pack-7848ea9825fe28bb60c938bdf3f2294b87880b20.pack: ok
