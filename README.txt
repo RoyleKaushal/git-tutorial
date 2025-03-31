@@ -9,3 +9,9 @@
 5. git add <file> -> moves file from working area to staging area
 
 6. git rm --cached <file> -> moves file back from staging area to working area
+
+7. commit -> Commit is a particular version of the project. It captures a snapshot of the project's staged changes and creates a version out of it.
+
+8. git commit -> registers staging changes to a commit.
+
+9. git log -> list downs all the commits of the repository. If you want to exit out of git log prompt press q.
