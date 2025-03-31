@@ -20,3 +20,7 @@
 10. git stash drop stash@{0} -> It deletes the particular stash 
 
 11. git stash clear -> It delete complete stack of stash.
+
+12. git stash save "added index and save" -> It stash the stagged file with particular message
+
+13. git stash save "added untracked and staged file in stash" --include-untracked -> It stash the untracked and stagged file with particular message
